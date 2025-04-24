@@ -2,12 +2,13 @@ from location import Location
 import osmnx as ox
 import networkx as nx
 import folium
+import pandas as pd
 
 from location_graph import LocationGraph
 
 hospitals = [
     Location("ACE Malolos Doctors", 14.853554735231283, 120.81142465744408,),
-    Location("Bulacan Medical Center/Hospital(BMC)", 14.858302418099049, 120.81745447386649,),
+    Location("Bulacan Medical Center Hospital(BMC)", 14.858302418099049, 120.81745447386649,),
     Location("Graman Medical Hospital Inc.", 14.84647720458458, 120.83460117593113,),
     Location("Malolos EENT Hospital", 14.8499986254405, 120.822678718528,),
     Location("Malolos Maternity Hospital", 14.8501139971557, 120.822242189016,),
@@ -68,6 +69,20 @@ edges = ox.graph_to_gdfs(locationGraph.G, nodes=False)
 
 print("Doing...")
 
+calc_data = []
+
+directory_name = "calculations"
+
+try:
+    os.mkdir(directory_name)
+    print(f"Directory '{directory_name}' created successfully.")
+except FileExistsError:
+    print(f"Directory '{directory_name}' already exists.")
+except PermissionError:
+    print(f"Permission denied: Unable to create '{directory_name}'.")
+except Exception as e:
+    print(f"An error occurred: {e}")
+
 for school in schools:
     print(f"Calculating {school.name}")
     m = folium.Map(location=[school.lat, school.long], zoom_start=15)
@@ -77,6 +92,7 @@ for school in schools:
         folium.PolyLine(points, color="gray", weight=3).add_to(m)
     closest,distance = locationGraph.get_closest(school, hospitals)
     print(f"{school.name} is closer with {closest.name} with distance: {distance}m")
+    calc_data.append((school.name, closest.name, distance))
     print("Saving to file...")
     path = nx.shortest_path(locationGraph.G, school.to_node(locationGraph.G), closest.to_node(locationGraph.G), weight="length")
     path_coords = [(locationGraph.G.nodes[node]['y'], locationGraph.G.nodes[node]['x']) for node in path]
@@ -95,8 +111,9 @@ for school in schools:
             fill_opacity=0.6  # Transparency
         ).add_to(m)
 
-
+    pd.DataFrame(data=calc_data, columns=["School", "Closest Hospital", "Distance"]).to_csv("./calculations/data.csv")
     m.save(f"calculations/{school.name}-closest.html")
 
+print(pd.DataFrame(data=calc_data, columns=["School", "Closest Hospital", "Distance"]))
 
 print("FINISHED!")
