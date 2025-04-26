@@ -4,7 +4,8 @@ import networkx as nx
 import folium
 import pandas as pd
 import os
-
+from tqdm import tqdm
+import time
 from location_graph import LocationGraph
 
 hospitals = [
@@ -68,7 +69,6 @@ place_name = "Malolos, Bulacan, Philippines"
 locationGraph = LocationGraph(place_name)
 edges = ox.graph_to_gdfs(locationGraph.G, nodes=False)
 
-print("Doing...")
 
 calc_data = []
 
@@ -84,25 +84,12 @@ except PermissionError:
 except Exception as e:
     print(f"An error occurred: {e}")
 
-for school in schools:
-    print(f"Calculating {school.name}")
-    m = folium.Map(location=[school.lat, school.long], zoom_start=15)
-    # Add the road network to the map
-    for _, edge in edges.iterrows():
-        points = [(lat, lon) for lon, lat in edge["geometry"].coords]
-        folium.PolyLine(points, color="gray", weight=3).add_to(m)
-    closest,distance = locationGraph.get_closest(school, hospitals)
-    print(f"{school.name} is closer with {closest.name} with distance: {distance}m")
-    calc_data.append((school.name, closest.name, distance))
-    print("Saving to file...")
-    path = nx.shortest_path(locationGraph.G, school.to_node(locationGraph.G), closest.to_node(locationGraph.G), weight="length")
-    path_coords = [(locationGraph.G.nodes[node]['y'], locationGraph.G.nodes[node]['x']) for node in path]
-    folium.PolyLine(path_coords, color="red", weight=5).add_to(m)
+colors = ["blue", "green", "purple", "orange", "darkred", "lightblue", "darkgreen", "cadetblue", "pink"]
+marker_colors = ["green", "blue", "purple", "orange", "darkgreen"]
 
-    folium.Marker([school.lat, school.long], popup="Start", icon=folium.Icon(color="green")).add_to(m)
-    folium.Marker([closest.lat, closest.long], popup="End", icon=folium.Icon(color="red")).add_to(m)
+m = folium.Map(location=[schools[0].lat, schools[0].long], zoom_start=15)
 
-    for node, data in locationGraph.G.nodes(data=True):
+for node, data in locationGraph.G.nodes(data=True):
         folium.CircleMarker(
             location=(data['y'], data['x']),  # Node coordinates
             radius=2,  # Adjust node size
@@ -112,8 +99,27 @@ for school in schools:
             fill_opacity=0.6  # Transparency
         ).add_to(m)
 
-    pd.DataFrame(data=calc_data, columns=["School", "Closest Hospital", "Distance"]).to_csv("./calculations/data.csv")
-    m.save(f"calculations/{school.name}-closest.html")
+for _, edge in edges.iterrows():
+        points = [(lat, lon) for lon, lat in edge["geometry"].coords]
+        folium.PolyLine(points, color="gray", weight=3).add_to(m)
+
+pbar = tqdm(schools, ncols=60)
+for index,school in enumerate(pbar):
+    (f"Calculating {school.name}")
+    closest,distance,path = locationGraph.get_closest(school, hospitals)
+    calc_data.append((school.name, closest.name, distance))
+    # print("Saving to file...")
+    color = colors[index % len(colors)]
+    path_coords = [(locationGraph.G.nodes[node]['y'], locationGraph.G.nodes[node]['x']) for node in path]
+    folium.PolyLine(path_coords, color=color, weight=5, popup=f"{school.name}-{closest.name}").add_to(m)
+
+    folium.Marker([school.lat, school.long], popup=f"{school.name}", icon=folium.Icon(color=color)).add_to(m)
+    folium.Marker([closest.lat, closest.long], popup=closest.name, icon=folium.Icon(color="red")).add_to(m)
+
+    
+pd.DataFrame(data=calc_data, columns=["School", "Closest Hospital", "Distance"]).to_csv("./calculations/data.csv")
+print("Saving file to PATHS.html...")
+m.save("PATHS.html")
 
 print(pd.DataFrame(data=calc_data, columns=["School", "Closest Hospital", "Distance"]))
 
