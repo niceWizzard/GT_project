@@ -15,7 +15,12 @@ locations = [
     Location("St James the Apostle Parish Plaridel", 14.885810544266146, 120.85978010412184),
     Location("Simboryo Chapel of Quingua Plaridel", 14.884845717881191, 120.86089821685681),
     Location("Municipal Trial Court Pulilan", 14.90088287929189, 120.84847772733637, ),
-
+    Location("Parish of St John the Baptist Calumpit", 14.916290963655934, 120.76871365675979),
+    Location("Barasoain Church Malolos", 14.846298449087984, 120.81255809227919),
+    Location("Immaculate Conception Parish Malolos", 14.842768314252513, 120.81144451558261),
+    Location("Museum of Philippine Political History Malolos", 14.844310361974768, 120.81150852779331),
+    Location("Malolos of Aguas Potables Malolos", 14.842713508543106, 120.81231003503166, ),
+    Location("Hiyas Bulacan Cultural Center and Museum Malolos", 14.855007660211152 , 120.81458057949528),
 ]
 
 results = []
