@@ -1,12 +1,7 @@
 
 from location import Location
-import osmnx as ox
-import networkx as nx
 import folium
 import pandas as pd
-import os
-from tqdm import tqdm
-import time
 from location_graph import LocationGraph
 
 
@@ -20,7 +15,7 @@ locations = [
     Location("St James the Apostle Parish Plaridel", 14.885810544266146, 120.85978010412184),
     Location("Simboryo Chapel of Quingua Plaridel", 14.884845717881191, 120.86089821685681),
     Location("Municipal Trial Court Pulilan", 14.90088287929189, 120.84847772733637, ),
-    
+
 ]
 
 results = []
