@@ -15,7 +15,14 @@ locations = [
     Location("St James the Apostle Parish Plaridel", 14.885810544266146, 120.85978010412184),
     Location("Simboryo Chapel of Quingua Plaridel", 14.884845717881191, 120.86089821685681),
     Location("Municipal Trial Court Pulilan", 14.90088287929189, 120.84847772733637, ),
-
+    Location("Bulacan Provincial Capitol Malolos", 14.856600935876505 ,120.81458674303957)
+    Location("Alberta Uitangcoy Santos House Malolos" ,14.839303413513187 ,120.81189263784665),
+    Location("Dr Luis Santos House", 14.841600955916304, 120.81097283034407),
+    Location("Old PNR  Guiguinto Station Guiguinto", 14.829984932111593 ,120.88392713763665 ),
+    Location("Constantino Ancestral HouseBalagtas",14.817061373797769,  120.90780440953162),
+    Location("Diocsan Shrine Bulakan",14.795036620289023 ,120.87940245399881),
+    Location("Old Meycauayan PNR Station Meycauayan" , 14.738682568117946 ,120.96078966260269),
+    Location("St Francis of Aggigi Parish Meycauayan",14.734867083097992 ,120.95717437033578)
 ]
 
 results = []
