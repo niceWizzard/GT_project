@@ -21,7 +21,7 @@ locations = [
     Location("Museum of Philippine Political History Malolos", 14.844310361974768, 120.81150852779331),
     Location("Malolos of Aguas Potables Malolos", 14.842713508543106, 120.81231003503166, ),
     Location("Hiyas Bulacan Cultural Center and Museum Malolos", 14.855007660211152 , 120.81458057949528),   
-    Location("Bulacan Provincial Capitol Malolos", 14.856600935876505 ,120.81458674303957)
+    Location("Bulacan Provincial Capitol Malolos", 14.856600935876505 ,120.81458674303957),
     Location("Alberta Uitangcoy Santos House Malolos" ,14.839303413513187 ,120.81189263784665),
     Location("Dr Luis Santos House", 14.841600955916304, 120.81097283034407),
     Location("Old PNR  Guiguinto Station Guiguinto", 14.829984932111593 ,120.88392713763665 ),
