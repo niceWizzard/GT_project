@@ -4,6 +4,18 @@ import folium
 import pandas as pd
 from location_graph import LocationGraph
 
+import os
+
+directory_name = "calculations"
+try:
+    os.mkdir(directory_name)
+    print(f"Directory '{directory_name}' created successfully.")
+except FileExistsError:
+    print(f"Directory '{directory_name}' already exists.")
+except PermissionError:
+    print(f"Permission denied: Unable to create '{directory_name}'.")
+except Exception as e:
+    print(f"An error occurred: {e}")
 
 colors = ["blue", "green", "purple", "orange", "darkred", "lightblue", "darkgreen", "cadetblue", "pink"]
 
@@ -28,7 +40,8 @@ locations = [
     Location("Constantino Ancestral HouseBalagtas",14.817061373797769,  120.90780440953162),
     Location("Diocsan Shrine Bulakan",14.795036620289023 ,120.87940245399881),
     Location("Old Meycauayan PNR Station Meycauayan" , 14.738682568117946 ,120.96078966260269),
-    Location("St Francis of Aggigi Parish Meycauayan",14.734867083097992 ,120.95717437033578)]
+    Location("St Francis of Aggigi Parish Meycauayan",14.734867083097992 ,120.95717437033578)
+]
 
 results = []
 
