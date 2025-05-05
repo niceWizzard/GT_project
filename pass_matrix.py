@@ -30,8 +30,8 @@ m = folium.Map(location=[locations[0].lat, locations[0].long], zoom_start=15)
 locations_count = len(locations)
 print("Calculating Distances")
 for index, loc1 in enumerate(locations):
-    for loc2 in [loc2 for loc2 in locations if loc2.name != loc1.name]:
-        print(f"{index+1}/{locations_count*(locations_count - 1)}")
+    for index2, loc2 in enumerate([loc2 for loc2 in locations if loc2.name != loc1.name]):
+        print(f"{(index * (locations_count-1)) + index2+1}/{locations_count*(locations_count - 1)}")
         path, distance = locationGraph.get_path(loc1, loc2)
         results.append(
             (loc1.name, loc2.name, distance)
