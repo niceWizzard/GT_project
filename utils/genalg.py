@@ -1,12 +1,12 @@
 import networkx as nx
 import random 
-
+from functools import cache
 
 
 
 
 def random_population(nodes: list, size: int):
-    return [random.sample(nodes, len(nodes)) for _ in range(size)]
+    return [tuple(random.sample(nodes, len(nodes))) for _ in range(size)]
 
 
 
@@ -18,7 +18,7 @@ def genetic_alg(G: nx.Graph, pop_size: int, mutation_rate: float, generations: i
         size = len(nodes)
         start, end = sorted(random.sample(range(size), 2))
         
-        child : list = [None] * size
+        child  = [None] * size
         # Step 1: Copy a slice from parent1
         child[start:end] = parent1[start:end]
 
@@ -29,33 +29,35 @@ def genetic_alg(G: nx.Graph, pop_size: int, mutation_rate: float, generations: i
                 while parent2[p2_idx] in child:
                     p2_idx += 1
                 child[i] = parent2[p2_idx]
-        return child
+        return tuple(child)
     
-    def mutate(route : list):
-        route = route[:]
+    def mutate(route : tuple):
+        route = list(route)[:]
         if random.random() < mutation_rate:
             i, j = random.sample(range(len(nodes)), 2)
             route[i], route[j] = route[j], route[i]
-        return route
+        return tuple(route)
     
-    def get_parent(population: list[list]) -> list:
+    def get_parent(population: list[tuple]) -> list:
         candidates = random.sample(population, 3)
         candidates.sort(key=lambda x : fitness(x), reverse=True)
         return candidates[0]
 
-    def get_length(tour: list) -> float:
+    @cache
+    def get_length(tour: tuple) -> float:
         tour_size = len(tour)
         return sum(
             distances[tour[i]][tour[(i+1) % len(tour)]] for i in range(len(tour))
         ) 
 
-    def fitness(tour : list) -> float:
+    @cache
+    def fitness(tour : tuple) -> float:
         return 1 / get_length(tour)
 
     population = random_population(nodes, pop_size)
 
     best_distance = float('Inf')
-    best_tour = None
+    best_tour: tuple = None
 
     for gen in range(generations):
         new_population: list[list] = []
