@@ -1,211 +1,191 @@
 ,Loc1,Loc2,Distance (m)
-0,St John of God Parish San Rafael,Old Municipal Building Baliwag,8679.30578280099
-1,St John of God Parish San Rafael,St James the Apostle Parish Plaridel,18077.162076326524
-2,St John of God Parish San Rafael,Municipal Trial Court Pulilan,18021.544975911645
-3,St John of God Parish San Rafael,Parish of St John the Baptist Calumpit,26509.47030698526
-4,St John of God Parish San Rafael,Barasoain Church Malolos,25934.32722515051
-5,St John of God Parish San Rafael,Immaculate Conception Parish Malolos,26350.45234598506
-6,St John of God Parish San Rafael,Museum of Philippine Political History Malolos,26171.5743858757
-7,St John of God Parish San Rafael,Hiyas Bulacan Cultural Center and Museum Malolos,25320.097887186137
-8,St John of God Parish San Rafael,Alberta Uitangcoy Santos House Malolos,26609.769328621816
-9,St John of God Parish San Rafael,Old PNR  Guiguinto Station Guiguinto,23732.789982122504
-10,St John of God Parish San Rafael,Constantino Ancestral HouseBalagtas,24640.772940077743
-11,St John of God Parish San Rafael,Diocsan Shrine Bulakan,27967.583188991146
-12,St John of God Parish San Rafael,Old Meycauayan PNR Station Meycauayan,35908.26418425861
-13,St John of God Parish San Rafael,St Francis of Aggigi Parish Meycauayan,36114.42392856153
-14,Old Municipal Building Baliwag,St John of God Parish San Rafael,8143.29799582629
-15,Old Municipal Building Baliwag,St James the Apostle Parish Plaridel,10260.939031912723
-16,Old Municipal Building Baliwag,Municipal Trial Court Pulilan,10263.873352116248
-17,Old Municipal Building Baliwag,Parish of St John the Baptist Calumpit,18751.79868318987
-18,Old Municipal Building Baliwag,Barasoain Church Malolos,18118.10418073673
-19,Old Municipal Building Baliwag,Immaculate Conception Parish Malolos,18534.22930157128
-20,Old Municipal Building Baliwag,Museum of Philippine Political History Malolos,18355.35134146192
-21,Old Municipal Building Baliwag,Hiyas Bulacan Cultural Center and Museum Malolos,17503.874842772355
-22,Old Municipal Building Baliwag,Alberta Uitangcoy Santos House Malolos,18793.546284208034
-23,Old Municipal Building Baliwag,Old PNR  Guiguinto Station Guiguinto,16569.815075070714
-24,Old Municipal Building Baliwag,Constantino Ancestral HouseBalagtas,17477.798033025938
-25,Old Municipal Building Baliwag,Diocsan Shrine Bulakan,20804.608281939356
-26,Old Municipal Building Baliwag,Old Meycauayan PNR Station Meycauayan,28745.28927720687
-27,Old Municipal Building Baliwag,St Francis of Aggigi Parish Meycauayan,28951.44902150977
-28,St James the Apostle Parish Plaridel,St John of God Parish San Rafael,17947.96934472561
-29,St James the Apostle Parish Plaridel,Old Municipal Building Baliwag,9882.860920100093
-30,St James the Apostle Parish Plaridel,Municipal Trial Court Pulilan,4176.172411464811
-31,St James the Apostle Parish Plaridel,Parish of St John the Baptist Calumpit,12788.555947211154
-32,St James the Apostle Parish Plaridel,Barasoain Church Malolos,7864.056852555648
-33,St James the Apostle Parish Plaridel,Immaculate Conception Parish Malolos,8280.181973390187
-34,St James the Apostle Parish Plaridel,Museum of Philippine Political History Malolos,8101.304013280828
-35,St James the Apostle Parish Plaridel,Hiyas Bulacan Cultural Center and Museum Malolos,7249.827514591278
-36,St James the Apostle Parish Plaridel,Alberta Uitangcoy Santos House Malolos,8539.498956026946
-37,St James the Apostle Parish Plaridel,Old PNR  Guiguinto Station Guiguinto,8270.770655633469
-38,St James the Apostle Parish Plaridel,Constantino Ancestral HouseBalagtas,11127.074571689205
-39,St James the Apostle Parish Plaridel,Diocsan Shrine Bulakan,11203.802918929518
-40,St James the Apostle Parish Plaridel,Old Meycauayan PNR Station Meycauayan,22394.565815870123
-41,St James the Apostle Parish Plaridel,St Francis of Aggigi Parish Meycauayan,22600.72556017302
-42,Municipal Trial Court Pulilan,St John of God Parish San Rafael,18001.897943742984
-43,Municipal Trial Court Pulilan,Old Municipal Building Baliwag,9936.789519117467
-44,Municipal Trial Court Pulilan,St James the Apostle Parish Plaridel,4158.08731363454
-45,Municipal Trial Court Pulilan,Parish of St John the Baptist Calumpit,9891.966861280203
-46,Municipal Trial Court Pulilan,Barasoain Church Malolos,12015.25246245855
-47,Municipal Trial Court Pulilan,Immaculate Conception Parish Malolos,12431.377583293091
-48,Municipal Trial Court Pulilan,Museum of Philippine Political History Malolos,12252.499623183732
-49,Municipal Trial Court Pulilan,Hiyas Bulacan Cultural Center and Museum Malolos,11401.023124494184
-50,Municipal Trial Court Pulilan,Alberta Uitangcoy Santos House Malolos,12690.69456592985
-51,Municipal Trial Court Pulilan,Old PNR  Guiguinto Station Guiguinto,10789.347490371856
-52,Municipal Trial Court Pulilan,Constantino Ancestral HouseBalagtas,13645.651406427593
-53,Municipal Trial Court Pulilan,Diocsan Shrine Bulakan,14919.958424268416
-54,Municipal Trial Court Pulilan,Old Meycauayan PNR Station Meycauayan,24913.1426506085
-55,Municipal Trial Court Pulilan,St Francis of Aggigi Parish Meycauayan,25119.3023949114
-56,Parish of St John the Baptist Calumpit,St John of God Parish San Rafael,26503.63282224271
-57,Parish of St John the Baptist Calumpit,Old Municipal Building Baliwag,18438.52439761719
-58,Parish of St John the Baptist Calumpit,St James the Apostle Parish Plaridel,12788.55594721115
-59,Parish of St John the Baptist Calumpit,Municipal Trial Court Pulilan,9893.086055332313
-60,Parish of St John the Baptist Calumpit,Barasoain Church Malolos,10025.77007198278
-61,Parish of St John the Baptist Calumpit,Immaculate Conception Parish Malolos,10233.54395170243
-62,Parish of St John the Baptist Calumpit,Museum of Philippine Political History Malolos,10054.66599159307
-63,Parish of St John the Baptist Calumpit,Hiyas Bulacan Cultural Center and Museum Malolos,8899.419399252389
-64,Parish of St John the Baptist Calumpit,Alberta Uitangcoy Santos House Malolos,10492.860934339189
-65,Parish of St John the Baptist Calumpit,Old PNR  Guiguinto Station Guiguinto,18076.079753970815
-66,Parish of St John the Baptist Calumpit,Constantino Ancestral HouseBalagtas,20243.785123747453
-67,Parish of St John the Baptist Calumpit,Diocsan Shrine Bulakan,19505.89808374904
-68,Parish of St John the Baptist Calumpit,Old Meycauayan PNR Station Meycauayan,31511.276367928385
-69,Parish of St John the Baptist Calumpit,St Francis of Aggigi Parish Meycauayan,31717.436112231284
-70,Barasoain Church Malolos,St John of God Parish San Rafael,25805.14663896502
-71,Barasoain Church Malolos,Old Municipal Building Baliwag,17740.0382143395
-72,Barasoain Church Malolos,St James the Apostle Parish Plaridel,7864.056852555651
-73,Barasoain Church Malolos,Municipal Trial Court Pulilan,12033.349705704226
-74,Barasoain Church Malolos,Parish of St John the Baptist Calumpit,10038.330004088759
-75,Barasoain Church Malolos,Immaculate Conception Parish Malolos,510.4567316595153
-76,Barasoain Church Malolos,Museum of Philippine Political History Malolos,331.5787715501543
-77,Barasoain Church Malolos,Hiyas Bulacan Cultural Center and Museum Malolos,1164.1122722451844
-78,Barasoain Church Malolos,Alberta Uitangcoy Santos House Malolos,769.773714296274
-79,Barasoain Church Malolos,Old PNR  Guiguinto Station Guiguinto,9431.966461811218
-80,Barasoain Church Malolos,Constantino Ancestral HouseBalagtas,11599.67183158786
-81,Barasoain Church Malolos,Diocsan Shrine Bulakan,10388.150410022425
-82,Barasoain Church Malolos,Old Meycauayan PNR Station Meycauayan,22867.163075768778
-83,Barasoain Church Malolos,St Francis of Aggigi Parish Meycauayan,23073.322820071677
-84,Immaculate Conception Parish Malolos,St John of God Parish San Rafael,26503.519742383894
-85,Immaculate Conception Parish Malolos,Old Municipal Building Baliwag,18438.411317758375
-86,Immaculate Conception Parish Malolos,St James the Apostle Parish Plaridel,8562.429955974532
-87,Immaculate Conception Parish Malolos,Municipal Trial Court Pulilan,12731.722809123108
-88,Immaculate Conception Parish Malolos,Parish of St John the Baptist Calumpit,10515.791934286766
-89,Immaculate Conception Parish Malolos,Barasoain Church Malolos,792.7047142438536
-90,Immaculate Conception Parish Malolos,Museum of Philippine Political History Malolos,461.12594269369924
-91,Immaculate Conception Parish Malolos,Hiyas Bulacan Cultural Center and Museum Malolos,1862.4853756640657
-92,Immaculate Conception Parish Malolos,Alberta Uitangcoy Santos House Malolos,259.3169826367586
-93,Immaculate Conception Parish Malolos,Old PNR  Guiguinto Station Guiguinto,9761.823999644177
-94,Immaculate Conception Parish Malolos,Constantino Ancestral HouseBalagtas,11929.52936942082
-95,Immaculate Conception Parish Malolos,Diocsan Shrine Bulakan,9877.693678362906
-96,Immaculate Conception Parish Malolos,Old Meycauayan PNR Station Meycauayan,23197.02061360173
-97,Immaculate Conception Parish Malolos,St Francis of Aggigi Parish Meycauayan,23403.18035790463
-98,Museum of Philippine Political History Malolos,St John of God Parish San Rafael,26042.393799690202
-99,Museum of Philippine Political History Malolos,Old Municipal Building Baliwag,17977.285375064683
-100,Museum of Philippine Political History Malolos,St James the Apostle Parish Plaridel,8101.304013280834
-101,Museum of Philippine Political History Malolos,Municipal Trial Court Pulilan,12270.596866429409
-102,Museum of Philippine Political History Malolos,Parish of St John the Baptist Calumpit,10054.665991593072
-103,Museum of Philippine Political History Malolos,Barasoain Church Malolos,331.5787715501543
-104,Museum of Philippine Political History Malolos,Immaculate Conception Parish Malolos,178.87796010936106
-105,Museum of Philippine Political History Malolos,Hiyas Bulacan Cultural Center and Museum Malolos,1401.3594329703662
-106,Museum of Philippine Political History Malolos,Alberta Uitangcoy Santos House Malolos,438.1949427461197
-107,Museum of Philippine Political History Malolos,Old PNR  Guiguinto Station Guiguinto,9571.295389429817
-108,Museum of Philippine Political History Malolos,Constantino Ancestral HouseBalagtas,11739.000759206461
-109,Museum of Philippine Political History Malolos,Diocsan Shrine Bulakan,10056.571638472267
-110,Museum of Philippine Political History Malolos,Old Meycauayan PNR Station Meycauayan,23006.492003387375
-111,Museum of Philippine Political History Malolos,St Francis of Aggigi Parish Meycauayan,23212.651747690274
-112,Hiyas Bulacan Cultural Center and Museum Malolos,St John of God Parish San Rafael,25236.912475399487
-113,Hiyas Bulacan Cultural Center and Museum Malolos,Old Municipal Building Baliwag,17171.804050773968
-114,Hiyas Bulacan Cultural Center and Museum Malolos,St James the Apostle Parish Plaridel,7295.822688990126
-115,Hiyas Bulacan Cultural Center and Museum Malolos,Municipal Trial Court Pulilan,11465.115542138697
-116,Hiyas Bulacan Cultural Center and Museum Malolos,Parish of St John the Baptist Calumpit,8899.867325929567
-117,Hiyas Bulacan Cultural Center and Museum Malolos,Barasoain Church Malolos,1158.862547376854
-118,Hiyas Bulacan Cultural Center and Museum Malolos,Immaculate Conception Parish Malolos,1574.9876682113963
-119,Hiyas Bulacan Cultural Center and Museum Malolos,Museum of Philippine Political History Malolos,1396.1097081020353
-120,Hiyas Bulacan Cultural Center and Museum Malolos,Alberta Uitangcoy Santos House Malolos,1834.3046508481552
-121,Hiyas Bulacan Cultural Center and Museum Malolos,Old PNR  Guiguinto Station Guiguinto,9176.660354718419
-122,Hiyas Bulacan Cultural Center and Museum Malolos,Constantino Ancestral HouseBalagtas,11344.365724495063
-123,Hiyas Bulacan Cultural Center and Museum Malolos,Diocsan Shrine Bulakan,10606.478684496646
-124,Hiyas Bulacan Cultural Center and Museum Malolos,Old Meycauayan PNR Station Meycauayan,22611.85696867598
-125,Hiyas Bulacan Cultural Center and Museum Malolos,St Francis of Aggigi Parish Meycauayan,22818.01671297888
-126,Alberta Uitangcoy Santos House Malolos,St John of God Parish San Rafael,26613.960896672328
-127,Alberta Uitangcoy Santos House Malolos,Old Municipal Building Baliwag,18548.85247204681
-128,Alberta Uitangcoy Santos House Malolos,St James the Apostle Parish Plaridel,8672.871110262966
-129,Alberta Uitangcoy Santos House Malolos,Municipal Trial Court Pulilan,12842.163963411542
-130,Alberta Uitangcoy Santos House Malolos,Parish of St John the Baptist Calumpit,10626.2330885752
-131,Alberta Uitangcoy Santos House Malolos,Barasoain Church Malolos,903.1458685322863
-132,Alberta Uitangcoy Santos House Malolos,Immaculate Conception Parish Malolos,259.3169826367586
-133,Alberta Uitangcoy Santos House Malolos,Museum of Philippine Political History Malolos,571.5670969821322
-134,Alberta Uitangcoy Santos House Malolos,Hiyas Bulacan Cultural Center and Museum Malolos,1972.9265299524984
-135,Alberta Uitangcoy Santos House Malolos,Old PNR  Guiguinto Station Guiguinto,9872.079218309811
-136,Alberta Uitangcoy Santos House Malolos,Constantino Ancestral HouseBalagtas,12039.784588086455
-137,Alberta Uitangcoy Santos House Malolos,Diocsan Shrine Bulakan,9846.3378712254
-138,Alberta Uitangcoy Santos House Malolos,Old Meycauayan PNR Station Meycauayan,23307.27583226737
-139,Alberta Uitangcoy Santos House Malolos,St Francis of Aggigi Parish Meycauayan,23513.435576570268
-140,Old PNR  Guiguinto Station Guiguinto,St John of God Parish San Rafael,24359.038637455313
-141,Old PNR  Guiguinto Station Guiguinto,Old Municipal Building Baliwag,17025.039425927625
-142,Old PNR  Guiguinto Station Guiguinto,St James the Apostle Parish Plaridel,8493.614373779334
-143,Old PNR  Guiguinto Station Guiguinto,Municipal Trial Court Pulilan,11512.405411202504
-144,Old PNR  Guiguinto Station Guiguinto,Parish of St John the Baptist Calumpit,17657.014139155694
-145,Old PNR  Guiguinto Station Guiguinto,Barasoain Church Malolos,9014.520779833805
-146,Old PNR  Guiguinto Station Guiguinto,Immaculate Conception Parish Malolos,9182.9126949877
-147,Old PNR  Guiguinto Station Guiguinto,Museum of Philippine Political History Malolos,9135.24676095236
-148,Old PNR  Guiguinto Station Guiguinto,Hiyas Bulacan Cultural Center and Museum Malolos,8757.14681322613
-149,Old PNR  Guiguinto Station Guiguinto,Alberta Uitangcoy Santos House Malolos,9442.22967762446
-150,Old PNR  Guiguinto Station Guiguinto,Constantino Ancestral HouseBalagtas,3131.387286340271
-151,Old PNR  Guiguinto Station Guiguinto,Diocsan Shrine Bulakan,4234.793206868661
-152,Old PNR  Guiguinto Station Guiguinto,Old Meycauayan PNR Station Meycauayan,14398.878530521173
-153,Old PNR  Guiguinto Station Guiguinto,St Francis of Aggigi Parish Meycauayan,14605.038274824074
-154,Constantino Ancestral HouseBalagtas,St John of God Parish San Rafael,24444.56390177627
-155,Constantino Ancestral HouseBalagtas,Old Municipal Building Baliwag,17978.075422777954
-156,Constantino Ancestral HouseBalagtas,St James the Apostle Parish Plaridel,11065.207393936435
-157,Constantino Ancestral HouseBalagtas,Municipal Trial Court Pulilan,13601.88147192049
-158,Constantino Ancestral HouseBalagtas,Parish of St John the Baptist Calumpit,20463.05091737348
-159,Constantino Ancestral HouseBalagtas,Barasoain Church Malolos,11820.557558051598
-160,Constantino Ancestral HouseBalagtas,Immaculate Conception Parish Malolos,11988.949473205494
-161,Constantino Ancestral HouseBalagtas,Museum of Philippine Political History Malolos,11941.283539170152
-162,Constantino Ancestral HouseBalagtas,Hiyas Bulacan Cultural Center and Museum Malolos,11563.183591443916
-163,Constantino Ancestral HouseBalagtas,Alberta Uitangcoy Santos House Malolos,12248.266455842253
-164,Constantino Ancestral HouseBalagtas,Old PNR  Guiguinto Station Guiguinto,3370.744733373558
-165,Constantino Ancestral HouseBalagtas,Diocsan Shrine Bulakan,5117.946892435096
-166,Constantino Ancestral HouseBalagtas,Old Meycauayan PNR Station Meycauayan,11267.491244180908
-167,Constantino Ancestral HouseBalagtas,St Francis of Aggigi Parish Meycauayan,11473.650988483814
-168,Diocsan Shrine Bulakan,St John of God Parish San Rafael,28197.07323268542
-169,Diocsan Shrine Bulakan,Old Municipal Building Baliwag,20611.57014185353
-170,Diocsan Shrine Bulakan,St James the Apostle Parish Plaridel,11170.628884633674
-171,Diocsan Shrine Bulakan,Municipal Trial Court Pulilan,14904.881633218261
-172,Diocsan Shrine Bulakan,Parish of St John the Baptist Calumpit,19471.1041166155
-173,Diocsan Shrine Bulakan,Barasoain Church Malolos,10397.843841366392
-174,Diocsan Shrine Bulakan,Immaculate Conception Parish Malolos,10072.480819566332
-175,Diocsan Shrine Bulakan,Museum of Philippine Political History Malolos,10066.26506981624
-176,Diocsan Shrine Bulakan,Hiyas Bulacan Cultural Center and Museum Malolos,10571.236790685934
-177,Diocsan Shrine Bulakan,Alberta Uitangcoy Santos House Malolos,9813.163836929572
-178,Diocsan Shrine Bulakan,Old PNR  Guiguinto Station Guiguinto,4801.7165117937475
-179,Diocsan Shrine Bulakan,Constantino Ancestral HouseBalagtas,5047.823843654317
-180,Diocsan Shrine Bulakan,Old Meycauayan PNR Station Meycauayan,16315.315087835219
-181,Diocsan Shrine Bulakan,St Francis of Aggigi Parish Meycauayan,16521.47483213812
-182,Old Meycauayan PNR Station Meycauayan,St John of God Parish San Rafael,35672.38687459627
-183,Old Meycauayan PNR Station Meycauayan,Old Municipal Building Baliwag,29205.898395597957
-184,Old Meycauayan PNR Station Meycauayan,St James the Apostle Parish Plaridel,22293.030366756448
-185,Old Meycauayan PNR Station Meycauayan,Municipal Trial Court Pulilan,24829.704444740517
-186,Old Meycauayan PNR Station Meycauayan,Parish of St John the Baptist Calumpit,31690.873890193474
-187,Old Meycauayan PNR Station Meycauayan,Barasoain Church Malolos,23048.380530871593
-188,Old Meycauayan PNR Station Meycauayan,Immaculate Conception Parish Malolos,23216.772446025483
-189,Old Meycauayan PNR Station Meycauayan,Museum of Philippine Political History Malolos,23169.10651199014
-190,Old Meycauayan PNR Station Meycauayan,Hiyas Bulacan Cultural Center and Museum Malolos,22791.00656426391
-191,Old Meycauayan PNR Station Meycauayan,Alberta Uitangcoy Santos House Malolos,23476.08942866224
-192,Old Meycauayan PNR Station Meycauayan,Old PNR  Guiguinto Station Guiguinto,14598.56770619357
-193,Old Meycauayan PNR Station Meycauayan,Constantino Ancestral HouseBalagtas,11307.285042511057
-194,Old Meycauayan PNR Station Meycauayan,Diocsan Shrine Bulakan,16345.7698652551
-195,Old Meycauayan PNR Station Meycauayan,St Francis of Aggigi Parish Meycauayan,866.7607653067711
-196,St Francis of Aggigi Parish Meycauayan,St John of God Parish San Rafael,35892.9561457211
-197,St Francis of Aggigi Parish Meycauayan,Old Municipal Building Baliwag,29426.46766672279
-198,St Francis of Aggigi Parish Meycauayan,St James the Apostle Parish Plaridel,22513.59963788128
-199,St Francis of Aggigi Parish Meycauayan,Municipal Trial Court Pulilan,25050.27371586535
-200,St Francis of Aggigi Parish Meycauayan,Parish of St John the Baptist Calumpit,31911.443161318304
-201,St Francis of Aggigi Parish Meycauayan,Barasoain Church Malolos,23268.949801996423
-202,St Francis of Aggigi Parish Meycauayan,Immaculate Conception Parish Malolos,23437.341717150313
-203,St Francis of Aggigi Parish Meycauayan,Museum of Philippine Political History Malolos,23389.67578311497
-204,St Francis of Aggigi Parish Meycauayan,Hiyas Bulacan Cultural Center and Museum Malolos,23011.57583538874
-205,St Francis of Aggigi Parish Meycauayan,Alberta Uitangcoy Santos House Malolos,23696.65869978707
-206,St Francis of Aggigi Parish Meycauayan,Old PNR  Guiguinto Station Guiguinto,14819.136977318403
-207,St Francis of Aggigi Parish Meycauayan,Constantino Ancestral HouseBalagtas,11527.854313635891
-208,St Francis of Aggigi Parish Meycauayan,Diocsan Shrine Bulakan,16566.33913637994
-209,St Francis of Aggigi Parish Meycauayan,Old Meycauayan PNR Station Meycauayan,860.3848605105507
+0,St John of God Parish San Rafael,Old Municipal Building Baliwag,6520.700846346992
+1,St John of God Parish San Rafael,St Augustine Parish Baliwag,6743.710315757871
+2,St John of God Parish San Rafael,St James the Apostle Parish Plaridel,13713.607136685545
+3,St John of God Parish San Rafael,Simboryo Chapel of Quingua Plaridel,13679.27466752148
+4,St John of God Parish San Rafael,Municipal Trial Court Pulilan,13879.97906543236
+5,St John of God Parish San Rafael,Parish of St John the Baptist Calumpit,21433.880856048494
+6,St John of God Parish San Rafael,Barasoain Church Malolos,20400.59492599194
+7,St John of God Parish San Rafael,Immaculate Conception Parish Malolos,20734.395901313117
+8,St John of God Parish San Rafael,Museum of Philippine Political History Malolos,20624.209502431924
+9,St John of God Parish San Rafael,Malolos of Aguas Potables Malolos,20664.873976759696
+10,St John of God Parish San Rafael,Hiyas Bulacan Cultural Center and Museum Malolos,19652.623085008454
+11,St John of God Parish San Rafael,Bulacan Provincial Capitol Malolos,19550.109657349123
+12,St John of God Parish San Rafael,Alberta Uitangcoy Santos House Malolos,20900.730007191156
+13,St John of God Parish San Rafael,Dr Luis Santos House,20854.10750697304
+14,St John of God Parish San Rafael,Old PNR  Guiguinto Station Guiguinto,16557.335101819226
+15,St John of God Parish San Rafael,Constantino Ancestral HouseBalagtas,16719.141791851674
+16,St John of God Parish San Rafael,Diocsan Shrine Bulakan,20184.06580587264
+17,St John of God Parish San Rafael,Old Meycauayan PNR Station Meycauayan,24293.232163258854
+18,St John of God Parish San Rafael,St Francis of Aggigi Parish Meycauayan,24722.56120071568
+19,Old Municipal Building Baliwag,St Augustine Parish Baliwag,227.6547535440828
+20,Old Municipal Building Baliwag,St James the Apostle Parish Plaridel,8923.505328845458
+21,Old Municipal Building Baliwag,Simboryo Chapel of Quingua Plaridel,8953.989680938641
+22,Old Municipal Building Baliwag,Municipal Trial Court Pulilan,8345.776224917585
+23,Old Municipal Building Baliwag,Parish of St John the Baptist Calumpit,15032.433487061535
+24,Old Municipal Building Baliwag,Barasoain Church Malolos,15435.816541326363
+25,Old Municipal Building Baliwag,Immaculate Conception Parish Malolos,15815.735711498282
+26,Old Municipal Building Baliwag,Museum of Philippine Political History Malolos,15678.009504283295
+27,Old Municipal Building Baliwag,Malolos of Aguas Potables Malolos,15762.85242517914
+28,Old Municipal Building Baliwag,Hiyas Bulacan Cultural Center and Museum Malolos,14555.872563033712
+29,Old Municipal Building Baliwag,Bulacan Provincial Capitol Malolos,14422.117988873742
+30,Old Municipal Building Baliwag,Alberta Uitangcoy Santos House Malolos,15991.143733449886
+31,Old Municipal Building Baliwag,Dr Luis Santos House,15948.567523076326
+32,Old Municipal Building Baliwag,Old PNR  Guiguinto Station Guiguinto,13959.31596039606
+33,Old Municipal Building Baliwag,Constantino Ancestral HouseBalagtas,15252.088744818575
+34,Old Municipal Building Baliwag,Diocsan Shrine Bulakan,17856.185274267435
+35,Old Municipal Building Baliwag,Old Meycauayan PNR Station Meycauayan,24718.095897143994
+36,Old Municipal Building Baliwag,St Francis of Aggigi Parish Meycauayan,25032.81332339401
+37,St Augustine Parish Baliwag,St James the Apostle Parish Plaridel,8838.126477840422
+38,St Augustine Parish Baliwag,Simboryo Chapel of Quingua Plaridel,8872.361516713467
+39,St Augustine Parish Baliwag,Municipal Trial Court Pulilan,8214.38546828104
+40,St Augustine Parish Baliwag,Parish of St John the Baptist Calumpit,14826.293252952995
+41,St Augustine Parish Baliwag,Barasoain Church Malolos,15321.613377431753
+42,St Augustine Parish Baliwag,Immaculate Conception Parish Malolos,15703.408651369722
+43,St Augustine Parish Baliwag,Museum of Philippine Political History Malolos,15564.421672255732
+44,St Augustine Parish Baliwag,Malolos of Aguas Potables Malolos,15651.499083666531
+45,St Augustine Parish Baliwag,Hiyas Bulacan Cultural Center and Museum Malolos,14435.872558049035
+46,St Augustine Parish Baliwag,Bulacan Provincial Capitol Malolos,14300.59391319946
+47,St Augustine Parish Baliwag,Alberta Uitangcoy Santos House Malolos,15879.027764439817
+48,St Augustine Parish Baliwag,Dr Luis Santos House,15836.73346105487
+49,St Augustine Parish Baliwag,Old PNR  Guiguinto Station Guiguinto,13961.740803524937
+50,St Augustine Parish Baliwag,Constantino Ancestral HouseBalagtas,15295.33337797519
+51,St Augustine Parish Baliwag,Diocsan Shrine Bulakan,17859.195151777305
+52,St Augustine Parish Baliwag,Old Meycauayan PNR Station Meycauayan,24808.391254686572
+53,St Augustine Parish Baliwag,St Francis of Aggigi Parish Meycauayan,25119.052525591233
+54,St James the Apostle Parish Plaridel,Simboryo Chapel of Quingua Plaridel,160.85105826948725
+55,St James the Apostle Parish Plaridel,Municipal Trial Court Pulilan,2064.0666164753557
+56,St James the Apostle Parish Plaridel,Parish of St John the Baptist Calumpit,10362.88914450666
+57,St James the Apostle Parish Plaridel,Barasoain Church Malolos,6703.677375510353
+58,St James the Apostle Parish Plaridel,Immaculate Conception Parish Malolos,7052.660532327348
+59,St James the Apostle Parish Plaridel,Museum of Philippine Political History Malolos,6933.406830135513
+60,St James the Apostle Parish Plaridel,Malolos of Aguas Potables Malolos,6988.380068066846
+61,St James the Apostle Parish Plaridel,Hiyas Bulacan Cultural Center and Museum Malolos,5939.373480217638
+62,St James the Apostle Parish Plaridel,Bulacan Provincial Capitol Malolos,5839.427593376947
+63,St James the Apostle Parish Plaridel,Alberta Uitangcoy Santos House Malolos,7223.097064400191
+64,St James the Apostle Parish Plaridel,Dr Luis Santos House,7177.5922948449115
+65,St James the Apostle Parish Plaridel,Old PNR  Guiguinto Station Guiguinto,6701.35637473528
+66,St James the Apostle Parish Plaridel,Constantino Ancestral HouseBalagtas,9196.701682397696
+67,St James the Apostle Parish Plaridel,Diocsan Shrine Bulakan,10263.517345792214
+68,St James the Apostle Parish Plaridel,Old Meycauayan PNR Station Meycauayan,19576.444035324093
+69,St James the Apostle Parish Plaridel,St Francis of Aggigi Parish Meycauayan,19719.3091892865
+70,Simboryo Chapel of Quingua Plaridel,Municipal Trial Court Pulilan,2221.4795854344725
+71,Simboryo Chapel of Quingua Plaridel,Parish of St John the Baptist Calumpit,10511.594142061573
+72,Simboryo Chapel of Quingua Plaridel,Barasoain Church Malolos,6727.170551193488
+73,Simboryo Chapel of Quingua Plaridel,Immaculate Conception Parish Malolos,7071.1401332909645
+74,Simboryo Chapel of Quingua Plaridel,Museum of Philippine Political History Malolos,6954.703108460521
+75,Simboryo Chapel of Quingua Plaridel,Malolos of Aguas Potables Malolos,7005.336761937517
+76,Simboryo Chapel of Quingua Plaridel,Hiyas Bulacan Cultural Center and Museum Malolos,5978.712550478286
+77,Simboryo Chapel of Quingua Plaridel,Bulacan Provincial Capitol Malolos,5882.6212682599935
+78,Simboryo Chapel of Quingua Plaridel,Alberta Uitangcoy Santos House Malolos,7240.523134335415
+79,Simboryo Chapel of Quingua Plaridel,Dr Luis Santos House,7194.684196971327
+80,Simboryo Chapel of Quingua Plaridel,Old PNR  Guiguinto Station Guiguinto,6556.661224653577
+81,Simboryo Chapel of Quingua Plaridel,Constantino Ancestral HouseBalagtas,9040.863626498016
+82,Simboryo Chapel of Quingua Plaridel,Diocsan Shrine Bulakan,10134.736743301837
+83,Simboryo Chapel of Quingua Plaridel,Old Meycauayan PNR Station Meycauayan,19420.876352995347
+84,Simboryo Chapel of Quingua Plaridel,St Francis of Aggigi Parish Meycauayan,19564.965927493475
+85,Municipal Trial Court Pulilan,Parish of St John the Baptist Calumpit,8749.995930111889
+86,Municipal Trial Court Pulilan,Barasoain Church Malolos,7170.6837135934275
+87,Municipal Trial Court Pulilan,Immaculate Conception Parish Malolos,7565.08287333568
+88,Municipal Trial Court Pulilan,Museum of Philippine Political History Malolos,7416.8946859940415
+89,Municipal Trial Court Pulilan,Malolos of Aguas Potables Malolos,7521.620964226867
+90,Municipal Trial Court Pulilan,Hiyas Bulacan Cultural Center and Museum Malolos,6250.710665904311
+91,Municipal Trial Court Pulilan,Bulacan Provincial Capitol Malolos,6108.012859967851
+92,Municipal Trial Court Pulilan,Alberta Uitangcoy Santos House Malolos,7741.397711994484
+93,Municipal Trial Court Pulilan,Dr Luis Santos House,7701.657920260333
+94,Municipal Trial Court Pulilan,Old PNR  Guiguinto Station Guiguinto,8723.126299841873
+95,Municipal Trial Court Pulilan,Constantino Ancestral HouseBalagtas,11259.842348414159
+96,Municipal Trial Court Pulilan,Diocsan Shrine Bulakan,12175.347701673496
+97,Municipal Trial Court Pulilan,Old Meycauayan PNR Station Meycauayan,21638.943517995634
+98,Municipal Trial Court Pulilan,St Francis of Aggigi Parish Meycauayan,21778.892660878777
+99,Parish of St John the Baptist Calumpit,Barasoain Church Malolos,9068.493553088847
+100,Parish of St John the Baptist Calumpit,Immaculate Conception Parish Malolos,9344.736105023045
+101,Parish of St John the Baptist Calumpit,Museum of Philippine Political History Malolos,9200.020512629719
+102,Parish of St John the Baptist Calumpit,Malolos of Aguas Potables Malolos,9396.171207769874
+103,Parish of St John the Baptist Calumpit,Hiyas Bulacan Cultural Center and Museum Malolos,8386.911477956408
+104,Parish of St John the Baptist Calumpit,Bulacan Provincial Capitol Malolos,8245.417939824492
+105,Parish of St John the Baptist Calumpit,Alberta Uitangcoy Santos House Malolos,9428.924401714889
+106,Parish of St John the Baptist Calumpit,Dr Luis Santos House,9432.825689623654
+107,Parish of St John the Baptist Calumpit,Old PNR  Guiguinto Station Guiguinto,15649.842990219151
+108,Parish of St John the Baptist Calumpit,Constantino Ancestral HouseBalagtas,18563.552452215157
+109,Parish of St John the Baptist Calumpit,Diocsan Shrine Bulakan,17941.881322978414
+110,Parish of St John the Baptist Calumpit,Old Meycauayan PNR Station Meycauayan,28524.07174110177
+111,Parish of St John the Baptist Calumpit,St Francis of Aggigi Parish Meycauayan,28538.781389243857
+112,Barasoain Church Malolos,Immaculate Conception Parish Malolos,408.5736656369569
+113,Barasoain Church Malolos,Museum of Philippine Political History Malolos,247.28517439061974
+114,Barasoain Church Malolos,Malolos of Aguas Potables Malolos,397.5610637103388
+115,Barasoain Church Malolos,Hiyas Bulacan Cultural Center and Museum Malolos,987.9281358671996
+116,Barasoain Church Malolos,Bulacan Provincial Capitol Malolos,1160.662154044955
+117,Barasoain Church Malolos,Alberta Uitangcoy Santos House Malolos,580.4475099757652
+118,Barasoain Church Malolos,Dr Luis Santos House,547.0519127837157
+119,Barasoain Church Malolos,Old PNR  Guiguinto Station Guiguinto,7890.748862018002
+120,Barasoain Church Malolos,Constantino Ancestral HouseBalagtas,10750.056935803499
+121,Barasoain Church Malolos,Diocsan Shrine Bulakan,9161.91359067822
+122,Barasoain Church Malolos,Old Meycauayan PNR Station Meycauayan,19910.58064931145
+123,Barasoain Church Malolos,St Francis of Aggigi Parish Meycauayan,19859.44552065604
+124,Immaculate Conception Parish Malolos,Museum of Philippine Political History Malolos,170.76227857174442
+125,Immaculate Conception Parish Malolos,Malolos of Aguas Potables Malolos,93.35189137191836
+126,Immaculate Conception Parish Malolos,Hiyas Bulacan Cultural Center and Museum Malolos,1395.6765092764442
+127,Immaculate Conception Parish Malolos,Bulacan Provincial Capitol Malolos,1567.4581162247334
+128,Immaculate Conception Parish Malolos,Alberta Uitangcoy Santos House Malolos,176.3276384164336
+129,Immaculate Conception Parish Malolos,Dr Luis Santos House,138.78349617734926
+130,Immaculate Conception Parish Malolos,Old PNR  Guiguinto Station Guiguinto,7928.6241972838125
+131,Immaculate Conception Parish Malolos,Constantino Ancestral HouseBalagtas,10754.66200355139
+132,Immaculate Conception Parish Malolos,Diocsan Shrine Bulakan,9022.328407543677
+133,Immaculate Conception Parish Malolos,Old Meycauayan PNR Station Meycauayan,19776.914829317502
+134,Immaculate Conception Parish Malolos,St Francis of Aggigi Parish Meycauayan,19714.70180502311
+135,Museum of Philippine Political History Malolos,Malolos of Aguas Potables Malolos,196.62157184165036
+136,Museum of Philippine Political History Malolos,Hiyas Bulacan Cultural Center and Museum Malolos,1228.9378789905884
+137,Museum of Philippine Political History Malolos,Bulacan Provincial Capitol Malolos,1399.6900803924543
+138,Museum of Philippine Political History Malolos,Alberta Uitangcoy Santos House Malolos,335.1318114125365
+139,Museum of Philippine Political History Malolos,Dr Luis Santos House,305.2821388523133
+140,Museum of Philippine Political History Malolos,Old PNR  Guiguinto Station Guiguinto,7954.054635178517
+141,Museum of Philippine Political History Malolos,Constantino Ancestral HouseBalagtas,10794.390810933382
+142,Museum of Philippine Political History Malolos,Diocsan Shrine Bulakan,9117.70989223076
+143,Museum of Philippine Political History Malolos,Old Meycauayan PNR Station Meycauayan,19871.138688691826
+144,Museum of Philippine Political History Malolos,St Francis of Aggigi Parish Meycauayan,19812.99501235105
+145,Malolos of Aguas Potables Malolos,Hiyas Bulacan Cultural Center and Museum Malolos,1382.089023215642
+146,Malolos of Aguas Potables Malolos,Bulacan Provincial Capitol Malolos,1556.0196037976016
+147,Malolos of Aguas Potables Malolos,Alberta Uitangcoy Santos House Malolos,235.89217141512614
+148,Malolos of Aguas Potables Malolos,Dr Luis Santos House,189.386751268196
+149,Malolos of Aguas Potables Malolos,Old PNR  Guiguinto Station Guiguinto,7835.887508913803
+150,Malolos of Aguas Potables Malolos,Constantino Ancestral HouseBalagtas,10663.233099852932
+151,Malolos of Aguas Potables Malolos,Diocsan Shrine Bulakan,8943.381843558755
+152,Malolos of Aguas Potables Malolos,Old Meycauayan PNR Station Meycauayan,19697.698658838905
+153,Malolos of Aguas Potables Malolos,St Francis of Aggigi Parish Meycauayan,19636.949730942302
+154,Hiyas Bulacan Cultural Center and Museum Malolos,Bulacan Provincial Capitol Malolos,176.2929041114971
+155,Hiyas Bulacan Cultural Center and Museum Malolos,Alberta Uitangcoy Santos House Malolos,1563.9029876491213
+156,Hiyas Bulacan Cultural Center and Museum Malolos,Dr Luis Santos House,1533.3904577989676
+157,Hiyas Bulacan Cultural Center and Museum Malolos,Old PNR  Guiguinto Station Guiguinto,7960.6718566722675
+158,Hiyas Bulacan Cultural Center and Museum Malolos,Constantino Ancestral HouseBalagtas,10876.908232977506
+159,Hiyas Bulacan Cultural Center and Museum Malolos,Diocsan Shrine Bulakan,9628.788553169758
+160,Hiyas Bulacan Cultural Center and Museum Malolos,Old Meycauayan PNR Station Meycauayan,20332.179712940586
+161,Hiyas Bulacan Cultural Center and Museum Malolos,St Francis of Aggigi Parish Meycauayan,20306.338370052017
+162,Bulacan Provincial Capitol Malolos,Alberta Uitangcoy Santos House Malolos,1734.1779905117198
+163,Bulacan Provincial Capitol Malolos,Dr Luis Santos House,1704.672049112107
+164,Bulacan Provincial Capitol Malolos,Old PNR  Guiguinto Station Guiguinto,8023.045587321121
+165,Bulacan Provincial Capitol Malolos,Constantino Ancestral HouseBalagtas,10945.525785117816
+166,Bulacan Provincial Capitol Malolos,Diocsan Shrine Bulakan,9750.622625555525
+167,Bulacan Provincial Capitol Malolos,Old Meycauayan PNR Station Meycauayan,20443.678976502208
+168,Bulacan Provincial Capitol Malolos,St Francis of Aggigi Parish Meycauayan,20421.638292923373
+169,Alberta Uitangcoy Santos House Malolos,Dr Luis Santos House,48.094532688829894
+170,Alberta Uitangcoy Santos House Malolos,Old PNR  Guiguinto Station Guiguinto,7996.960149987753
+171,Alberta Uitangcoy Santos House Malolos,Constantino Ancestral HouseBalagtas,10807.997720466774
+172,Alberta Uitangcoy Santos House Malolos,Diocsan Shrine Bulakan,9013.783873425724
+173,Alberta Uitangcoy Santos House Malolos,Old Meycauayan PNR Station Meycauayan,19768.12517093983
+174,Alberta Uitangcoy Santos House Malolos,St Francis of Aggigi Parish Meycauayan,19700.825808555022
+175,Dr Luis Santos House,Old PNR  Guiguinto Station Guiguinto,7956.721211654306
+176,Dr Luis Santos House,Constantino Ancestral HouseBalagtas,10770.37349699127
+177,Dr Luis Santos House,Diocsan Shrine Bulakan,8988.905982240407
+178,Dr Luis Santos House,Old Meycauayan PNR Station Meycauayan,19743.47260751884
+179,Dr Luis Santos House,St Francis of Aggigi Parish Meycauayan,19677.37771504057
+180,Old PNR  Guiguinto Station Guiguinto,Constantino Ancestral HouseBalagtas,2941.1242029818513
+181,Old PNR  Guiguinto Station Guiguinto,Diocsan Shrine Bulakan,3897.4743412576845
+182,Old PNR  Guiguinto Station Guiguinto,Old Meycauayan PNR Station Meycauayan,13058.683027332007
+183,Old PNR  Guiguinto Station Guiguinto,St Francis of Aggigi Parish Meycauayan,13150.984848590075
+184,Constantino Ancestral HouseBalagtas,Diocsan Shrine Bulakan,3909.781486729059
+185,Constantino Ancestral HouseBalagtas,Old Meycauayan PNR Station Meycauayan,10380.273660905515
+186,Constantino Ancestral HouseBalagtas,St Francis of Aggigi Parish Meycauayan,10533.853571677602
+187,Diocsan Shrine Bulakan,Old Meycauayan PNR Station Meycauayan,10754.713765975945
+188,Diocsan Shrine Bulakan,St Francis of Aggigi Parish Meycauayan,10697.56825875867
+189,Old Meycauayan PNR Station Meycauayan,St Francis of Aggigi Parish Meycauayan,574.2642464195543
