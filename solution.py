@@ -28,5 +28,7 @@ new_G = nx.Graph()
 for i in range(len(route.cities)):
     new_G.add_edge(route.cities[i], route.cities[(i+1)%len(route.cities)], weight=route.length)
 
+pd.DataFrame(route.cities, columns=["Route"]).to_csv("calculations/gen_alg_sol.csv")
+
 nx.draw(new_G, with_labels=True, node_size=1000, node_color="skyblue", font_size=10, font_weight="bold")
 plt.show()
