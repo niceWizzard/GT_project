@@ -27,7 +27,9 @@ print(f"Route Distance: {route.length:.2f}m")
 new_G = nx.Graph()
 
 for i in range(len(route.cities)):
-    new_G.add_edge(route.cities[i], route.cities[(i+1)%len(route.cities)], weight=route.length)
+    nodeA = route.cities[i]
+    nodeB = route.cities[(i+1)%len(route.cities)]
+    new_G.add_edge(nodeA, nodeB, weight=get_distance(nodeA, nodeB))
 
 pd.DataFrame(route.cities, columns=["Route"]).to_csv("calculations/gen_alg_sol.csv")
 
