@@ -21,4 +21,4 @@ def nearest_neighbor(G : nx.Graph, start_index: int = 0) -> tuple[list[str], flo
     else:
         #Connect last node distance to the first node distance
         best_distance += G[current_node][first].get('weight')
-    return (route, best_distance)
+    return (tuple(route), best_distance)
