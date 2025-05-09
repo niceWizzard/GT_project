@@ -1,4 +1,4 @@
-from utils.location import Location
+from utils.location_graph import Location
 
 colors = ["blue", "green", "purple", "orange", "darkred", "lightblue", "darkgreen", "cadetblue", "pink"]
 

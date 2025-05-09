@@ -1,8 +1,15 @@
 import osmnx as ox
 import networkx as nx
+from networkx import MultiDiGraph
 
-from location import Location
-
+class Location:
+    def __init__(self, name : str, lat: float, long: float):
+        self.name = name
+        self.lat = lat
+        self.long = long
+    
+    def to_node(self, graph : MultiDiGraph):
+        return ox.distance.nearest_nodes(graph, self.long, self.lat)
 
 class LocationGraph:
     def __init__(self, place_name : str ):
