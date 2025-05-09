@@ -3,7 +3,7 @@ from utils.location import Location
 colors = ["blue", "green", "purple", "orange", "darkred", "lightblue", "darkgreen", "cadetblue", "pink"]
 
 
-locations = [
+locations_list = [
 	Location("St John of God Parish San Rafael", 14.958225524337369, 120.96322267882005),
 	Location("Old Municipal Building Baliwag", 14.95481604695801,120.90270723510771),
 	Location("St Augustine Parish Baliwag", 14.955119055786852, 120.90061402905987),
@@ -26,4 +26,4 @@ locations = [
 	Location("St Francis of Aggigi Parish Meycauayan",14.734867083097992 ,120.95717437033578),
 ]
 
-locations_count = len(locations)
+locations_count = len(locations_list)

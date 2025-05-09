@@ -1,7 +1,7 @@
 import pandas as pd
 from geopy.distance import geodesic
 import os
-from data import locations, locations_count
+from data import locations_list, locations_count
 
 
 directory_name = "calculations"
@@ -19,8 +19,8 @@ except Exception as e:
 results = []
 visited = []
 print("Calculating Distances")
-for index, loc1 in enumerate(locations):
-	for index2, loc2 in enumerate([loc2 for loc2 in locations if loc2.name != loc1.name]):
+for index, loc1 in enumerate(locations_list):
+	for index2, loc2 in enumerate([loc2 for loc2 in locations_list if loc2.name != loc1.name]):
 		if (loc1.name, loc2.name) in visited:
 			continue
 		print(f"{(index * (locations_count-1)) + index2+1}/{locations_count*(locations_count - 1)}")
